@@ -17,6 +17,7 @@ RUN echo 'tzdata tzdata/Areas select Europe' | debconf-set-selections && \
     dnsutils \
     ansible \
     git \
+    sshpass \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
